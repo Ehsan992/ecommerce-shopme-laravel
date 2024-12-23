@@ -18,9 +18,19 @@
 - Advanced middleware for DDoS attack prevention and geolocation filtering.
 
 This project demonstrates the power of Laravel for scalable and secure web applications.
+Table of Contents
+
+## Features
+1.System Architecture
+2.Technologies Used
+3.Installation Guide
+4.Project Structure
+5.Key Functionalities
+6.Middleware Overview
+7.Testing and Results
+8.Future Improvements
 
 ## Key Features
-
 - **Real-time Text Emotion Detection:** Analyze customer feedback and reviews using machine learning.
 - **DDoS Attack Mitigation:** Middleware to prevent malicious traffic and secure your platform.
 - **Dynamic Shopping Cart:** A user-friendly cart with seamless checkout.
