@@ -18,8 +18,14 @@
 - Advanced middleware for DDoS attack prevention and geolocation filtering.
 
 This project demonstrates the power of Laravel for scalable and secure web applications.
-Table of Contents
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/47e7a830-7bcc-4fc6-a030-f87fe8dc7f58)
+![image](https://github.com/user-attachments/assets/d9129d17-3d5a-4eee-b0a8-a18bf42372bd)
+![image](https://github.com/user-attachments/assets/b40b5bd1-8448-43f5-8fac-5da096cfd842)
+![image](https://github.com/user-attachments/assets/c9ec3b36-dd81-4bb0-974f-aeff755a0e9d)
+
+Table of Contents
 ## Features
 - 1.System Architecture
 - 2.Technologies Used
@@ -77,12 +83,6 @@ Custom middleware ensures security and performance:
 - **User-Agent Inspection:** Filters requests based on browser types.
 - **Geolocation Blocking:** Restricts access from specific regions.
 - **Request Logging:** Captures payload data for analytics and debugging.
-
-## Screenshots
-![image](https://github.com/user-attachments/assets/47e7a830-7bcc-4fc6-a030-f87fe8dc7f58)
-![image](https://github.com/user-attachments/assets/d9129d17-3d5a-4eee-b0a8-a18bf42372bd)
-![image](https://github.com/user-attachments/assets/b40b5bd1-8448-43f5-8fac-5da096cfd842)
-![image](https://github.com/user-attachments/assets/c9ec3b36-dd81-4bb0-974f-aeff755a0e9d)
 
 ## Testing and Results
 - **JMeter Load Testing:** Validated the middleware's effectiveness under heavy traffic.
