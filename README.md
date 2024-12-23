@@ -43,6 +43,34 @@ Table of Contents
 - **Admin Tools:** Category, brand, and blog management with detailed dashboards.
 - **Custom Middleware:** For enhanced security and throttling.
 
+## Technologies Used
+- **Framework:** Laravel
+- **Programming Language:** PHP
+- **Frontend:** HTML, CSS, Bootstrap, Blade
+- **Database:** MySQL
+- **Testing Tools:** JMeter, HOIC
+
+# Project Structure
+shop-me/
+|-- app/
+|-- config/
+|-- database/
+|-- public/
+|-- resources/
+    |-- views/
+        |-- admin/
+        |-- auth/
+        |-- layouts/
+        |-- pages/
+|-- routes/
+|-- storage/
+|-- tests/
+
+- **app/**: Core logic, including controllers and models.
+- **resources/views/**: Blade templates for UI.
+- **routes/**: Web and API routes.
+- **tests/**: Unit and feature tests.
+
 ## Learning ShopMe
 
 Detailed documentation and guides will help you get started with the project. Additionally, comments in the codebase ensure ease of understanding for contributors.
