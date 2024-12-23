@@ -78,6 +78,10 @@ Custom middleware ensures security and performance:
 - **Geolocation Blocking:** Restricts access from specific regions.
 - **Request Logging:** Captures payload data for analytics and debugging.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/47e7a830-7bcc-4fc6-a030-f87fe8dc7f58)
+
+
 ## Testing and Results
 - **JMeter Load Testing:** Validated the middleware's effectiveness under heavy traffic.
 - **HOIC Simulation:** Ensured the system withstands DDoS attacks.
