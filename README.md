@@ -30,6 +30,12 @@ Table of Contents
 - 7.Testing and Results
 - 8.Future Improvements
 
+## System Architecture
+- The system is built with modular components:
+- Frontend: Blade templates for dynamic and responsive UI.
+- Backend: Laravel framework with Eloquent ORM for database operations.
+- Middleware: Custom layers for DDoS protection, user-agent inspection, and geolocation blocking.
+
 ## Key Features
 - **Real-time Text Emotion Detection:** Analyze customer feedback and reviews using machine learning.
 - **DDoS Attack Mitigation:** Middleware to prevent malicious traffic and secure your platform.
