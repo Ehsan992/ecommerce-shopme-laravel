@@ -1,0 +1,65 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?8231ae187f715d65efb968a9240b36a9") format("truetype"),
+url("./flaticon.woff?8231ae187f715d65efb968a9240b36a9") format("woff"),
+url("./flaticon.woff2?8231ae187f715d65efb968a9240b36a9") format("woff2"),
+url("./flaticon.eot?8231ae187f715d65efb968a9240b36a9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8231ae187f715d65efb968a9240b36a9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cpu": "\f101",
+    "desktop": "\f102",
+    "diamond": "\f103",
+    "dress": "\f104",
+    "high-heels": "\f105",
+    "home": "\f106",
+    "kite": "\f107",
+    "smartphone": "\f108",
+    "teddy-bear": "\f109",
+    "tshirt": "\f10a",
+);
+
+.flaticon-cpu:before {
+    content: map-get($flaticon-map, "cpu");
+}
+.flaticon-desktop:before {
+    content: map-get($flaticon-map, "desktop");
+}
+.flaticon-diamond:before {
+    content: map-get($flaticon-map, "diamond");
+}
+.flaticon-dress:before {
+    content: map-get($flaticon-map, "dress");
+}
+.flaticon-high-heels:before {
+    content: map-get($flaticon-map, "high-heels");
+}
+.flaticon-home:before {
+    content: map-get($flaticon-map, "home");
+}
+.flaticon-kite:before {
+    content: map-get($flaticon-map, "kite");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-teddy-bear:before {
+    content: map-get($flaticon-map, "teddy-bear");
+}
+.flaticon-tshirt:before {
+    content: map-get($flaticon-map, "tshirt");
+}
