@@ -84,7 +84,6 @@ Custom middleware ensures security and performance:
 ![image](https://github.com/user-attachments/assets/b40b5bd1-8448-43f5-8fac-5da096cfd842)
 ![image](https://github.com/user-attachments/assets/c9ec3b36-dd81-4bb0-974f-aeff755a0e9d)
 
-
 ## Testing and Results
 - **JMeter Load Testing:** Validated the middleware's effectiveness under heavy traffic.
 - **HOIC Simulation:** Ensured the system withstands DDoS attacks.
@@ -97,21 +96,6 @@ Custom middleware ensures security and performance:
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with detailed information about your changes.
-
-## License
-This project is open-source and available under the MIT License.
-
-## Learning ShopMe
-
-Detailed documentation and guides will help you get started with the project. Additionally, comments in the codebase ensure ease of understanding for contributors.
-
-## Sponsors and Contributions
-
-We appreciate community contributions to improve this project. Please review the [Contribution Guide](CONTRIBUTING.md) for guidelines.
-
-## Security Vulnerabilities
-
-If you identify any security issues, please report them promptly via [your email here].
 
 ## License
 
