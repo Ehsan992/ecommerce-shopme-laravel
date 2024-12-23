@@ -21,7 +21,7 @@ This project demonstrates the power of Laravel for scalable and secure web appli
 Table of Contents
 
 ## Features
-- **1.System Architecture
+- ** 1.System Architecture
 - **2.Technologies Used
 - **3.Installation Guide
 - **4.Project Structure
