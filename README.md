@@ -51,20 +51,7 @@ Table of Contents
 - **Testing Tools:** JMeter, HOIC
 
 # Project Structure
-shop-me/
-|-- app/
-|-- config/
-|-- database/
-|-- public/
-|-- resources/
-    |-- views/
-        |-- admin/
-        |-- auth/
-        |-- layouts/
-        |-- pages/
-|-- routes/
-|-- storage/
-|-- tests/
+shop-me/ │ ├── app/ # Core logic, including controllers and models. ├── config/ # Configuration files for the application. ├── database/ # Database migrations and seeds. ├── public/ # Publicly accessible files (e.g., images, JS, CSS). ├── resources/ # Resources like language files, views, and assets. │ ├── views/ # Blade templates for UI. │ ├── admin/ # Admin-related resources. │ ├── auth/ # Authentication-related views. │ ├── layouts/ # Layouts for the application. │ └── pages/ # Pages for different sections of the application. ├── routes/ # Web and API routes. ├── storage/ # Storage for file uploads, logs, etc. └── tests/ # Unit and feature tests.
 
 - **app/**: Core logic, including controllers and models.
 - **resources/views/**: Blade templates for UI.
