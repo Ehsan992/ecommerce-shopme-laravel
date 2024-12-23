@@ -57,6 +57,42 @@ shop-me/ │ ├── app/ # Core logic, including controllers and models. ├�
 - **resources/views/**: Blade templates for UI.
 - **routes/**: Web and API routes.
 - **tests/**: Unit and feature tests.
+# Key Functionalities
+
+## User Features
+- **Product browsing and search:** Browse and search products with ease.
+- **Shopping cart and checkout:** Seamless cart functionality and checkout process.
+- **Wishlist management:** Manage and save favorite products for future purchase.
+- **Real-time emotion analysis on reviews:** Analyze customer sentiment on product reviews in real-time.
+
+## Admin Features
+- **Dashboard with analytics:** View real-time analytics and insights.
+- **Manage products, categories, and blogs:** CRUD operations for products, categories, and blog posts.
+- **View detailed reports on web traffic and performance:** Gain insights into traffic and system performance.
+
+## Middleware Overview
+Custom middleware ensures security and performance:
+- **Throttling Middleware:** Limits request rates to prevent overloading.
+- **IP Blocking Middleware:** Blocks malicious IP addresses to prevent attacks.
+- **User-Agent Inspection:** Filters requests based on browser types.
+- **Geolocation Blocking:** Restricts access from specific regions.
+- **Request Logging:** Captures payload data for analytics and debugging.
+
+## Testing and Results
+- **JMeter Load Testing:** Validated the middleware's effectiveness under heavy traffic.
+- **HOIC Simulation:** Ensured the system withstands DDoS attacks.
+- **Graphs and Reports:** Showed significant improvement in server response time under high load.
+
+## Future Improvements
+- Enhance the emotion detection model with advanced sentiment analysis.
+- Add multi-language support for a global audience.
+- Implement AI-driven product recommendations based on customer preferences.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request with detailed information about your changes.
+
+## License
+This project is open-source and available under the MIT License.
 
 ## Learning ShopMe
 
